@@ -4,8 +4,8 @@
 
 print("Welcome in simple calculator\nWrite two numbers which you want + - / *")
 
-number1 = input()
-number2 = input()
+number1 = float(input("First number"))
+number2 = float(input("Second number"))
 
 add = number1 + number2
 subtract = number1 - number2
